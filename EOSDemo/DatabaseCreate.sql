@@ -1,4 +1,4 @@
-USE [SE1112]
+USE ["database name"]
 GO
 
 /****** Object:  Table [dbo].[Question]    Script Date: 18/8/2017 15:18:30 PM ******/
