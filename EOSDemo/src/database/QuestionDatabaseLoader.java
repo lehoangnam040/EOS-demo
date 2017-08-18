@@ -26,9 +26,10 @@ public class QuestionDatabaseLoader {
 
     public QuestionDatabaseLoader() {
         try {
-            String url = "jdbc:sqlserver://localhost:1433;databaseName=SE1112";
-            String username = "namlh";
-            String password = "tunghoanh";
+            //you need to edit the database name, user name, password in your computer
+            String url = "jdbc:sqlserver://localhost:1433;databaseName=" + databaseName;
+            String username = "username";
+            String password = "password";
             Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
             connection = DriverManager.getConnection(url, username, password);
         } catch (ClassNotFoundException | SQLException ex) {
