@@ -1,5 +1,5 @@
 # EOS-demo
-An simple examination software
+A simple examination software
 
 build by java
 
